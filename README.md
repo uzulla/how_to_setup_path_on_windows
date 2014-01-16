@@ -11,6 +11,10 @@ Windows Vistaがないので検証できていない。（どなたか〜）
 
 pull req ウエルカム、特にVista
 
+# 普段から滅茶苦茶環境変数書き換えてる人は
+
+[RapidEE](http://www.rapidee.com/en/about)などのツールを使うと捗ると思います。
+
 # Windows 2000
 
 マイコンピューターを右クリックしてプロパティを開く
