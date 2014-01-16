@@ -125,11 +125,12 @@ pull req ウエルカム、特にVista
 「path」というコマンドでも確認できる。
 
 
-# WindowsとはMicrosft株式会社の商標です（定型文）
+# （定型文）
 
+Microsoft、Windows、Windows 2000、Windows Vista、Windows 7、Windows 8、Windows Server 2012、Windows Server またはその他のマイクロソフト製品の名称および製品名は、米国Microsoft Corporationの米国およびその他の国における商標または登録商標です。
 
 # 本ドキュメントのライセンス
 
-（Windowsのスクリーンショットがどういう扱いになるのかわからぬ…）
+（「スクリーンショット」というものが引用にできるのかわからぬが）
 
-本文の部分はMIT
+本文の部分はMITです。
