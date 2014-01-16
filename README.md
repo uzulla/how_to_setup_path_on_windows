@@ -170,3 +170,10 @@ Microsoft、Windows、Windows 2000、Windows Vista、Windows 7、Windows 8、Win
 （「スクリーンショット」というものが引用にできるのかわからぬが）
 
 本文の部分はMITです。
+
+# 謝辞
+
+@hajime さん
+@r_ohki さん
+
+情報ありがとうございました！！
