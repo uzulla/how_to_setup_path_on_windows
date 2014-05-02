@@ -9,6 +9,8 @@ Windows 7以降はコンパネのシステムとセキュリティ〜から設�
 
 VistaはXPと7の中間。
 
+PHPの場合、裏技としてComposerをインストーラーでインストールすると、ついでにやってもらえる。
+
 # 普段から環境変数を頻繁に書き換えてる人は
 
 [RapidEE](http://www.rapidee.com/en/about)などのツールを使うと捗ると思います。
@@ -207,6 +209,62 @@ UACのダイアログがでるので、許可する
 
 問題がなければ、OKをおして保存する。コマンドプロンプトをあたらしくひらいて、実際に必要なプログラムを実行してみてパスが通っているか確認する。
 「path」というコマンドでも確認できる。
+
+
+# PHPならComposer インストールと一緒にやっちゃう
+
+PHPのパッケージマネージャであるところの[Composer](https://getcomposer.org/)を、コマンドラインでなく、GUIのインストーラーで導入すると同時にPHPのPathも設定もらうことができます。結構便利なのに、非常にわかりづらい所においてありますね。
+
+[https://getcomposer.org/doc/00-intro.md#using-the-installer](https://getcomposer.org/doc/00-intro.md#using-the-installer)
+[Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)をDLして、実行する。
+
+事前にXAMPPなどのインストールは行っておく必要があります
+
+（以下英語なので、日本語の人はフィーリングで置き換えして読んで下さい、ボタン配置は一緒だとおもいますので）
+
+![](images/composer_1.png)
+
+ダウンロードしたインストーラーを開きます。
+
+
+![](images/composer_2.png)
+
+UACの許可をします
+
+
+![](images/composer_3.png)
+![](images/composer_4.png)
+
+ここはお好みで（ShellMenuは右クリックでComposer実行できるようにするか？ですが、果たして便利なの？）
+
+
+![](images/composer_5.png)
+
+この画面で、PHPのバイナリ（php.exe）の場所を指定します。
+最近のXAMPPなら、`c:\xampp\php\php.exe`になると思います。
+直接入力欄に場所（PATH）をいれるか、Browseをおして、ファイルダイアログから選択します。
+
+この画面、再インストール時の画面なので、最初のインストール時には、下の「Choose a different 〜」は多分表示されていません。
+
+
+![](images/composer_6.png)
+
+問題なければ、インストールが進みます。
+
+
+![](images/composer_7.png)
+![](images/composer_8.png)
+
+完了です。
+
+
+![](images/composer_9.png)
+
+完了したら、新しくコマンドプロンプトをひらいて、`php -v`と実行してみましょう。PATHが通っているならversionが表示されるはずです！
+
+当然ではありますが、Composerもパスが通りますので`composer`で、Composerを動作させる事も可能です。
+
+（しかし、強いて言えば、どうせなら、「C:\Users\ユーザー名\AppData\Roaming\Composer\vendor\bin」にもPathを通してくれればもっと簡単便利なんですけどねえ…）
 
 
 # （定型文）
