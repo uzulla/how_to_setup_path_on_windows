@@ -3,13 +3,15 @@ Windowsで環境変数のPATHを追加する方法沢山
 
 # まとめ
 
+PHPの場合は、Composer-setupをつかうと、Composerが入りつつ、PHPにもPATHが通るので便利。
+[https://getcomposer.org/Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
+（古いWindowsではどうなるかわかりません）
+
 Windows 2000、XPまではマイコンピューターの右クリックから設定を開始する。
 
 Windows 7以降はコンパネのシステムとセキュリティ〜から設定を開始する。
 
 VistaはXPと7の中間。
-
-PHPの場合、裏技としてComposerをインストーラーでインストールすると、ついでにやってもらえる。
 
 # 普段から環境変数を頻繁に書き換えてる人は
 
